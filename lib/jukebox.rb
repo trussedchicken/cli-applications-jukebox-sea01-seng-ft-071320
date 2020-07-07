@@ -22,8 +22,9 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index { | song, index | 
+  songs.map.with_index { | song, index | 
   start_at_one = index + 1
+  
   }
 end
 
