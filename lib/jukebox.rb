@@ -23,7 +23,6 @@ end
 
 def list(songs)
   songs.map.with_index { | song, index | 
-binding.pry
   }
 end
 
