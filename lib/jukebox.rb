@@ -22,8 +22,8 @@ def help
 end
 
 def list(songs)
-  songs.map.with_index { | song, index | [index + 1]
-  binding.pry
+  songs.each_with_index { | song, index | 
+  
   }
 end
 
