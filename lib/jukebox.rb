@@ -23,8 +23,7 @@ end
 
 def list(songs)
   songs.map.with_index { | song, index | 
-  start_one = index + 1
-  binding.pry
+  start_at_one = index + 1
   }
 end
 
