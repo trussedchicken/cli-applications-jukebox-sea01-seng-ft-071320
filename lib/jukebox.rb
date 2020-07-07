@@ -22,9 +22,8 @@ def help
 end
 
 def list(songs)
-  binding.pry
-  #songs.each_with_index { | song, index |
-  
+  songs.each_with_index { | song, index |
+  }
 end
 
 
