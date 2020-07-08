@@ -28,5 +28,6 @@ def list(my_songs)
 end
 
 def play(songs)
-  
+  puts "Please entee a song name or number:"
+  input =
 end
