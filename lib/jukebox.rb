@@ -29,5 +29,6 @@ end
 
 def play(songs)
   puts "Please entee a song name or number:"
-  input =
+  input = gets.strip
+  
 end
