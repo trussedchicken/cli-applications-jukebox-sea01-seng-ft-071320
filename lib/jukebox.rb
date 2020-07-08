@@ -21,10 +21,10 @@ def help
   puts "- exit : exits this program"
 end
 
-def list(songs)
-  songs.each_with_index { | song, index | 
-  
-  }
+def list(my_songs)
+  my_songs.each_with_index do |song, index|
+    puts "#{index+1}. #{song}"
+  end
 end
 
 
